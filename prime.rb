@@ -1,5 +1,5 @@
 def prime?(test_integer)
-  bypass=[-2,-1,1,2]
+  bypass=[-2,2]
   bypass.each do |i|
     if test_integer==i
       return true
