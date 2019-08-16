@@ -6,6 +6,6 @@ def prime?(test_integer)
     end
   end
   
-  
+  if test_integer >
   (2...test_integer).none? {|i| test_integer%i==0}
 end
