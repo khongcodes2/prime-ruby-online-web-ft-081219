@@ -1,6 +1,10 @@
 def prime?(test_integer)
   bypass=[-2,-1,1,2]
-  return true if test_integer.any?
+  bypass.each do |i|
+    if test_integer==i
+      return true
+    end
+  end
   
   
   (2...test_integer).none? {|i| test_integer%i==0}
